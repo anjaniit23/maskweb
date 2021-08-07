@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+.Navbar {
+  background-color: rgb(10, 8, 8);
+  width: 100%;
+  height: 7rem;
+  font-size: 3rem;
+  border: 1px solid red;
+  line-height: 7.08rem;
+}
+
+.Navbar li {
+  color: antiquewhite;
+  list-style: none;
+  float: left;
+  padding: 0 2rem 0 2rem;
+}
+.Navbar li:hover {
+  background-color: rgb(189, 10, 10);
+  cursor: pointer;
+}
+
+.masklogo {
+  margin-left: 2rem;
+  margin-top: 0.3rem;
+  border-right: 2px solid white;
+  padding: 0 2rem 0 1rem;
+  float: left;
+  width: 4%;
+  height: 6.5rem;
+}
+.masklogo img {
+  border-radius: 10rem;
+  border: none;
+}
+
+.about {
+  width: 10%;
+  text-align: center;
+  color: rgb(233, 216, 195);
+  float: right;
+  margin-right: 5rem;
+}
+
+.aboutcontent {
+  display: none;
+}
+.about:hover {
+  background-color: rgb(189, 10, 10);
+}
+.about:hover .aboutcontent {
+  display: block;
+  background-color: rgb(2, 2, 3);
+  color: wheat;
+}
+
+.mask:hover,
+.members:hover {
+  background-color: rgb(189, 10, 10);
+  color: wheat;
+}
